@@ -61,6 +61,7 @@ public class RestTasks {
         }
     }
 
+    //This test runs correctly only after running test 'returnMaxIdForUserId'
     @Test
     public void addCommentForPostId() throws IOException {
         String url = "https://jsonplaceholder.typicode.com/comments";
